@@ -21,7 +21,7 @@ var articles={
             </p>`
 },
 'article-Two':{
-    title:'Article Two} Lloyd P Babu',
+    title:'Article Two| Lloyd P Babu',
     heading: 'Article Two',
     date: 'Sep 10,2016',
     content:`            <p>
