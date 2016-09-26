@@ -5,8 +5,7 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var articles={
-articleOne:{
+var articleOne={
     title:'Article One} Lloyd P Babu',
     heading: 'Article one',
     date: 'Sep 5,2016',
@@ -19,35 +18,6 @@ articleOne:{
             <p>
                  This is the content for para one. Yep its pretty random but I had to type something in so i just typed in what came though my mind.
             </p>`
-},
-articleTwo:{
-    title:'Article Two} Lloyd P Babu',
-    heading: 'Article Two',
-    date: 'Sep 10,2016',
-    content:`            <p>
-                This is the content for para one. Yep its pretty random but I had to type something in so i just typed in what came though my mind.
-            </p>
-            <p>
-                 This is the content for para two. Yep its pretty random but I had to type something in so i just typed in what came though my mind.
-            </p>
-            <p>
-                 This is the content for para one. Yep its pretty random but I had to type something in so i just typed in what came though my mind.
-            </p>`
-},
-articleThree:{
-    title:'Article One | Lloyd P Babu',
-    heading: 'Article Three',
-    date: 'Sep 15,2016',
-    content:`            <p>
-                This is the content for para one. Yep its pretty random but I had to type something in so i just typed in what came though my mind.
-            </p>
-            <p>
-                 This is the content for para two. Yep its pretty random but I had to type something in so i just typed in what came though my mind.
-            </p>
-            <p>
-                 This is the content for para one. Yep its pretty random but I had to type something in so i just typed in what came though my mind.
-            </p>`
-}
 };
 function createTemplate(data){
     var title=data.title;
